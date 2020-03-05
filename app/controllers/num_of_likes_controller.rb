@@ -15,6 +15,7 @@ class NumOfLikesController < ApplicationController
             like: params[:like],
             post_id: params[:post_id]
         )
+        render json: @num_of_like
     end
 
 end
